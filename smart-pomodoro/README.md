@@ -24,7 +24,7 @@ Um cronômetro Pomodoro inteligente que utiliza Inteligência Artificial para mo
 
 ### 1. Clonar o repositório
 ```bash
-git clone [https://github.com/seu-usuario/smart-pomodoro-ai.git](https://github.com/seu-usuario/smart-pomodoro-ai.git)
+git clone [https://github.com/Tha1s24/Projeto_Pomodoro_Inteligente.git](https://github.com/Tha1s24/Projeto_Pomodoro_Inteligente.git)
 cd smart-pomodoro-ai
 
 ```
