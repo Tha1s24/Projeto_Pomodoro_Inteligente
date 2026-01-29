@@ -1,0 +1,22 @@
+# Variáveis de ambiente (Segurança!)
+.env
+
+# Python (Arquivos compilados e cache)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+
+# Banco de Dados local
+# (É melhor o usuário criar o banco dele ao rodar o script de init)
+instance/
+*.db
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/

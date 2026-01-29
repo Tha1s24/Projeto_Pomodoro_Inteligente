@@ -1,0 +1,10 @@
+# Web Framework
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+
+# IA e Integração
+openai==1.12.0
+python-dotenv==1.0.1
+
+# Servidor de Produção (Opcional, mas recomendado para portfólio)
+gunicorn==21.2.0

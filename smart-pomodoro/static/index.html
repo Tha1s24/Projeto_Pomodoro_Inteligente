@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pomodoro AI - Portfólio Dev</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="welcome-modal" class="modal">
+        <div class="modal-content">
+            <h2>Bem-vindo ao Smart Pomodoro</h2>
+            <p>Para personalizar sua experiência com IA, como podemos te chamar?</p>
+            <input type="text" id="user-name-input" placeholder="Digite seu nome..." autofocus>
+            <button id="start-btn" class="btn-primary">Entrar no Painel</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1 id="greeting">Olá, Dev!</h1>
+            <div class="ai-box">
+                <span class="ai-badge">IA AGENT</span>
+                <p id="ai-status">Aguardando você iniciar sua jornada de foco...</p>
+            </div>
+        </header>
+
+        <section class="timer-card">
+            <div class="timer-display" id="timer">25:00</div>
+            <div class="controls">
+                <button id="play-pause" class="btn-primary">Iniciar Foco</button>
+                <button id="reset" class="btn-secondary">Resetar</button>
+            </div>
+        </section>
+
+        <section class="history-section">
+            <div class="history-header">
+                <h3>Histórico Diário</h3>
+                <span id="session-count">0 sessões hoje</span>
+            </div>
+            <ul id="history-list">
+                </ul>
+        </section>
+    </main>
+
+    <script src="js/timer.js"></script>
+    <script src="js/ai_agent.js"></script>
+</body>
+</html>
